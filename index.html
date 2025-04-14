@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav>
+        <div class="left">
+            <a href="/">My Portfolio</a>
+        </div>
+
+        <div class="right">
+            <a href="https://drive.google.com/file/d/1mfDu7fz2-yyeNFUHOZYIE2Ej-M9hUAev/view?usp=sharing" target="_blank" class="resume-link">
+                <i class="fa-solid fa-file-lines"></i>
+                <span>Resume</span>
+            </a>
+            <a href="https://github.com/pranjalm145" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/pranjal-mishra-37343a25a/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="mailto:pranjalm145@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+            <button id="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+    <main>
+        <!--Sectiom-1 Hero-->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi 👋🏻, I'm Pranjal Mishra</h2>
+                <p>Motivated and enthusiastic Computer Science engineering student with a strong foundation in programming, software
+                    development, and problem-solving. Have strong skills in C++, Python, Java, experienced in UI/UX design and proficient in
+                    using Figma for prototyping and wireframing. Actively seeking internship opportunities in software development, mobile app
+                    development, or UI/UX design to further enhance my skills and contribute to impactful projects. Eager to collaborate in a
+                    dynamic team environment, learn from industry professionals, and drive successful outcomes through strategic thinking,
+                    technical expertise, and passionate for emerging technologies.</p>
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#projects">
+                        <i class="fa-solid fa-file"></i>
+                        <span>Projects</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa-solid fa-address-book"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+            <div class="headshot">
+                <img src="images/WhatsApp Image 2025-04-13 at 14.10.15_40186dc3.jpg" alt="pranjal-headshot">
+            </div>
+        </section>
+        <!--Section 2: Skills-->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Here are some of the key technologies and languages I’ve worked with:
+            </div>
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/html.png" alt="html logo">
+                    <span>HTML</span>
+                </div>
+                <div class="cell">
+                    <img src="images/css-3.png" alt="css logo">
+                    <span>CSS</span>
+                </div>
+                <div class="cell">
+                    <img src="images/js.png" alt="javascript logo">
+                    <span>JAVASCRIPT</span>
+                </div>
+                <div class="cell">
+                    <img src="images/c-.png" alt="c++ logo">
+                    <span>C++</span>
+                </div>
+                <div class="cell">
+                    <img src="images/python.png" alt="python logo">
+                    <span>Python</span>
+                </div>
+            </div>
+        </section>
+        <!--Section 3: Projects-->
+        <section id="projects" class="project-section">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Movie Maven</h3>
+                        <p>A content-based recommendation system that suggests movies based on user's preferences using machine learning.</p>
+                        <a href="https://github.com/pranjalm145/movie-maven" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-image">
+                        <img src="images/Screenshot 2024-05-18 235548.png" alt="Movie Maven Screenshot">
+                    </div>
+                </div>
+            
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>MyBook-Mart</h3>
+                        <p>A full-stack web application for managing a bookstore, built with React, Node.js, Express, Mongoose, and Tailwind CSS. This app allows users to browse, add, and purchase books, with a user-friendly interface and a responsive design. The backend handles user authentication, book management, and transactions, while the frontend provides an interactive and sleek browsing experience.</p>
+                        <a href="https://github.com/pranjalm145/MyBook-Mart" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-image">
+                        <img src="images/image.png" alt="MyBook-Mart Screenshot">
+                    </div>
+                </div>
+            </div>            
+        </section>
+        <!--Section 4: Contact-->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="group">
+                <div class="text">
+                    Thanks for stopping by! Whether you have a project idea, a question, or just want to say hello — I'd love to hear from you.
+                    You can reach out directly via the form or connect with me through email or LinkedIn.
+                    Looking forward to connecting with you 🤝
+                </div>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="617b84e9-9f8e-491d-aaa0-525579fc9568">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
